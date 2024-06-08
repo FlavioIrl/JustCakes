@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustCakes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar sticky-top navbar-expand-lg ">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">JustCakes</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item ">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-bag-check-fill"></i>
+                            Sobre a Loja</a>
+                    <li class="nav-item">
+                        <a href="#cardápio" class="nav-link">
+                            <i class="bi bi-book"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#perguntas-frequentes" class="nav-link">
+                            <i class="bi bi-list-task"></i>
+                            Perguntas frequentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contatos" class="nav-link">
+                            <i class="bi bi-chat-square-dots"></i>
+                            Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="5000">
+                        <img src="./Slides/slide-1.jpg" alt="imagem do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./Slides/slide-2.jpg" alt="imagem de um bolo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./Slides/slide-3.jpg" alt="imagem de uma cesta de doces">
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <div class="col-lg-12">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-2">
+                            <div class="carousel-inner ">
+                                <div class="img-sobre mt-sm-4">
+                                    <div class="carousel-item active" data-bs-interval="9000">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img class="d-block w-100 rounded" src="./Sobre a loja/Loja.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 mt-3 mt-md-0">
+                                                <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                                                <p class="h5 mt-3 mb-3">
+                                                    &nbsp;&nbsp;Bem-vindos à Confeitaria <span class=" text-colored"> JustCakes</span>, Aqui, cada delícia é cuidadosamente elaborada para proporcionar uma <span class="text-colored">experiência única aos nossos clientes</span>. Nossa especialidade são os doces: bolos decorados, tortas irresistíveis, <span class="text-colored"> cupcakes criativos</span> e uma variedade de doces finos que encantam os olhos e o paladar. Venha nos visitar e permita-se ser levado por um mundo de sabores e <span class="text-colored">encantos açucarados</span>.
+                                                </p>
+                                                <h3 class="section-title text-colored mt-5">Nosso espaço</h3>
+                                                <p class="h5">&nbsp;&nbsp;Acolhedor e convidativo, perfeito para momentos de <span class="text-colored"> relaxamento</span>. Com uma decoração<span class="text-colored"> charmosa</span> e <span class="text-colored"> aconchegante</span>, cada detalhe foi pensado para proporcionar <span class="text-colored"> conforto e bem-estar</span>. Disponibilizamos um ambiente climatizado, mesas bem distribuídas e uma atmosfera agradável, ideal para <span class="text-colored"> encontros</span>, trabalho ou simplesmente para desfrutar de um <span class="text-colored">delicioso doce</span>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item " data-bs-interval="9000">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img class="d-block w-100 rounded" src="./Sobre a loja/Bolo.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <h3 class="section-title text-colored">Aniversários</h3>
+                                                <p class="h5 mt-3 ">&nbsp;&nbsp;Preparamos <span class="text-colored"> aniversário</span> personalizados para meninos e meninas com todo <span class="text-colored"> carinho</span>. Oferecemos bolos decorados sob medida, uma variedade de doces finos e um ambiente <span class="text-colored"> encantador</span> para celebrar momentos <span class="text-colored"> especiais</span>. Deixe-nos cuidar dos detalhes para que a festa dos seus filhos seja <span class="text-colored"> inesquecível!</span>
+                                                </p>
+                                                <h3 class="section-title text-colored mt-5">Eventos</h3>
+                                                <p class="h5"> &nbsp;&nbsp;Somos especialistas em tornar seus eventos <span class="text-colored"> inesquecíveis</span>. Desde reuniões corporativas até <span class="text-colored"> casamentos</span>, oferecemos um serviço completo com bolos personalizados, doces e um ambiente <span class="text-colored"> sofisticado e acolhedor.</span>  Cada detalhe é cuidadosamente planejado para garantir que sua <span class="text-colored"> celebração seja única e especial.</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="9000">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img class="d-block w-100 rounded" src="./Sobre a loja/FOTO-3-2-768x768.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <h3 class="section-title text-colored">Conforto e economia</h3>
+                                                <p class="h5 mt-3">&nbsp;&nbsp;Facilitamos seus pedidos com um sistema online <span class="text-colored"> prático e intuitivo</span>. Oferecemos entrega rápida e eficiente para garantir que seus pedidos cheguem <span class="text-colored"> fresquinhas e perfeitos</span> até você. Além disso, pensamos na sua <span class="text-colored"> economia</span>: ao optar por entregas programadas ou pedidos em maior quantidade, você pode aproveitar <span class="text-colored"> descontos especiais</span>  e <span class="text-colored">  tarifas reduzidas</span>. Desfrute do melhor da confeitaria, sem sair de casa e economizando mais!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-indicators" id="btn-sobre">
+                                        <button type="button" class="active" data-bs-target="#carousel-2" data-bs-slide-to="0"></button>
+                                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2"></button>
+                                    </div>
+                                </div>
+                                <div id="btn-sobre-setas">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-3 pb-5" id="cardápio">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title h1 text-center ">
+                        Nosso <span class="text-colored">Cardápio</span>  
+                    </h2>
+                </div>
+                <div class="row mt-5">
+                    <aside class="col-md-12">
+                        <nav class="nav nav-pills text-center nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bolos" class="col-md-2 text-center btn-cardapio text-start nav-link active">Bolos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tortas" class="col-md-2 text-center btn-cardapio text-start nav-link">Tortas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#doces" class="col-md-2 text-center btn-cardapio text-start nav-link">Doces Tradicionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#salgados" class="col-md-2 text-center btn-cardapio text-start nav-link">Salgados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="col-md-2 text-center btn-cardapio text-start nav-link">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gelados" class="col-md-2 text-center btn-cardapio text-start nav-link">Sobremesas Geladas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-22">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bolos">
+                                <div class="row">
+                                    <h1 class="text-center text-colored pt-2">Bolos</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bolos/Chocolate.jpg" alt="Bolo chocolate">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de Chocolate</h5>
+                                        <p>
+                                            Uma delícia feita com o mais puro chocolate belga, umedecido na medida certa e coberto com uma generosa camada de ganache cremoso. Cada fatia é uma explosão de sabor que derrete na boca.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bolos/Cenoura.png" alt="Bolo cenoura">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de Cenoura</h5>
+                                        <p>
+                                            Uma combinação clássica de bolo fofinho de cenoura com cobertura de brigadeiro caseiro. Perfeito para quem adora um doce que é ao mesmo tempo reconfortante e irresistível.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bolos/Red Velvet.jpg" alt="Red Velvet">
+                                        <h5 class="text-colored fw-bold mt-2">Red Velvet</h5>
+                                        <p>
+                                            Nosso famoso bolo Red Velvet é macio e vibrante, com um delicado sabor de cacau e baunilha, recheado e coberto com um suave creme de cream cheese. Uma experiência única e sofisticada.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="tortas">
+                                <div class="row">
+                                    <h1 class="text-center text-colored pt-2">Tortas</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Tortas/Torta de Limão.jpg"alt="Torta de Limão">
+                                        <h5 class="text-colored fw-bold mt-2">Torta de Limão</h5>
+                                        <p>
+                                            Nossa torta de limão é feita com uma base crocante, recheada com um creme de limão suave e finalizada com um merengue dourado. Uma sobremesa perfeita para os amantes de doces cítricos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Tortas/cheesecake.jpeg" alt="Cheesecake de Frutas Vermelhas">
+                                        <h5 class="text-colored fw-bold mt-2">Cheesecake de Frutas Vermelhas</h5>
+                                        <p>
+                                            Uma base crocante de biscoito, recheio cremoso de cream cheese e uma cobertura vibrante de frutas vermelhas. Uma sobremesa elegante e deliciosa.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Tortas/torta-holandesa.jpg" alt="Torta Holandesa">
+                                        <h5 class="text-colored fw-bold mt-2">Torta Holandesa</h5>
+                                        <p>
+                                            Com uma base crocante de biscoito, recheio cremoso de leite condensado e uma rica cobertura de chocolate, essa torta é um verdadeiro clássico que agrada a todos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="doces">
+                                <div class="row">
+                                    <h1 class="text-center pt-2"><span class="text-colored">Doces</span> Tradicionais</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Doces/brigadeiro-gourmet.jpg"alt="Brigadeiros">
+                                        <h5 class="text-colored fw-bold mt-2">Brigadeiro</h5>
+                                        <p>
+                                            O clássico doce brasileiro feito com leite condensado e chocolate, disponível em versões tradicionais, leite ninho e pistache. Pequenos pedaços de céu em cada mordida.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Doces/brigadeirococoqueimado.jpg" alt="Beijinho">
+                                        <h5 class="text-colored fw-bold mt-2">Beijinho</h5>
+                                        <p>
+                                            Delicado e doce, feito com coco ralado e leite condensado, disponível em versões tradicional e de coco queimado. Perfeito para qualquer ocasião.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Doces/quindim.jpg" alt="Quindim">
+                                        <h5 class="text-colored fw-bold mt-2">Quindim</h5>
+                                        <p>
+                                            Uma delícia de coco com gemas, assada até ficar com uma textura firme e um brilho encantador. Uma iguaria que encanta pelo sabor e pela aparência.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="salgados">
+                                <div class="row">
+                                    <h1 class="text-center text-colored pt-2">Salgados</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Salgados/empada.jpg"alt="Empadinhas">
+                                        <h5 class="text-colored fw-bold mt-2">Empadinhas</h5>
+                                        <p>
+                                            Pequenas tortinhas salgadas com recheios deliciosos como frango com catupiry, palmito e camarão, todas com uma massa leve e crocante.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Salgados/Coxinha-Frango-Catupiry.jpg" alt="Coxinhas">
+                                        <h5 class="text-colored fw-bold mt-2">Coxinhas</h5>
+                                        <p>
+                                            Crocantes por fora e macias por dentro, essas coxinhas são recheadas com frango temperado e requeijão cremoso. Uma tentação que não se pode resistir.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Salgados/Esfihas.jpg" alt="Esfihas">
+                                        <h5 class="text-colored fw-bold mt-2">Esfihas</h5>
+                                        <p>
+                                            Massa macia e recheios saborosos como carne, frango e queijo, essas esfihas são uma verdadeira delícia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="bebidas">
+                                <div class="row">
+                                    <h1 class="text-center text-colored pt-2">Bebidas</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bebidas/Mocha-2.jpg"alt="Cafés">
+                                        <h5 class="text-colored fw-bold mt-2">Cafés</h5>
+                                        <p>
+                                            Variedade de cafés especiais, incluindo expresso, cappuccino, mocha e latte, todos feitos com grãos selecionados para garantir o melhor aroma e sabor.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bebidas/sucos.jpg" alt="Sucos Naturais">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos Naturais</h5>
+                                        <p>
+                                            Sucos frescos de laranja, abacaxi, limão e maracujá, todos feitos na hora para garantir o máximo de frescor e sabor.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Bebidas/refrigerante-2.jpg" alt="Refrigerantes: ">
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerantes</h5>
+                                        <p>
+                                            Diversos sabores de refrigerantes para refrescar e acompanhar suas escolhas do nosso cardápio.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="gelados">
+                                <div class="row">
+                                    <h1 class="text-center pt-2"><span class="text-colored">Sobremesas</span> Geladas</h1>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Gelados/Milk-shake.jpg"alt="Sorvetes">
+                                        <h5 class="text-colored fw-bold mt-2">Sorvetes</h5>
+                                        <p>
+                                            Deliciosos sorvetes artesanais em sabores variados como chocolate, morango, baunilha e pistache. Perfeitos para refrescar e adoçar o seu dia.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Gelados/pave-de-sonho-de-valsa.jpg" alt="Pavê">
+                                        <h5 class="text-colored fw-bold mt-2">Pavê</h5>
+                                        <p>
+                                            Camadas de biscoito e creme em sabores como tradicional, chocolate com biscoito e sonho de valsa, criando uma sobremesa deliciosa e indulgente.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="./Cardápio/Gelados/Mousse.jpg" alt="Mousse">
+                                        <h5 class="text-colored fw-bold mt-2">Mousse</h5>
+                                        <p>
+                                            Sobremesas leves e aeradas em sabores como chocolate, maracujá e limão, perfeitas para finalizar qualquer refeição com um toque de doçura.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-4 pb-5" id="perguntas-frequentes">
+            <div class="container">
+                <h1 class="text-center section-title mb-5">Perguntas Frequentes</h1>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                                Aceitam encomendas para eventos?
+                            </button>
+                        </div>
+                        <div id="resposta2" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                Sim, aceitamos encomendas para eventos especiais como aniversários, casamentos e festas corporativas. Oferecemos uma ampla variedade de doces, bolos e salgados que podem ser personalizados conforme suas necessidades. Recomendamos que você entre em contato conosco com pelo menos duas semanas de antecedência para garantir a disponibilidade e a qualidade dos produtos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class=" accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                                Vocês fazem entregas?
+                            </button>
+                        </div>
+                        <div id="resposta1" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Sim, oferecemos serviço de entrega para que você possa desfrutar de nossos produtos no conforto da sua casa. As entregas podem ser solicitadas pelo nosso site ou telefone, com taxas variáveis conforme a localização. Verifique nossa área de cobertura e as condições de entrega em nosso site.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                                Vocês têm opções para dietas especiais?
+                            </button>
+                        </div>
+                        <div id="resposta3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Sim, em nosso cardápio você encontrará opções para diversas necessidades dietéticas, incluindo doces sem glúten, sem lactose e veganos. Estamos comprometidos em atender todos os nossos clientes, por isso, se tiver alguma restrição alimentar específica, por favor, nos avise e faremos o possível para acomodá-la.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta4">
+                                Posso personalizar um bolo ou doce?
+                            </button>
+                        </div>
+                        <div id="resposta4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Claro! Adoramos criar produtos personalizados para nossos clientes. Você pode escolher o sabor, o recheio, a cobertura e a decoração de bolos e doces para torná-los únicos e especiais. Entre em contato conosco para discutir suas ideias e preferências, e juntos criaremos algo inesquecível.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta5">
+                                Vocês oferecem opções de presentes?
+                            </button>
+                        </div>
+                        <div id="resposta5" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Sim, temos diversas opções de presentes que são perfeitas para qualquer ocasião. Oferecemos cestas e caixas decoradas com uma seleção de nossos melhores doces e salgados. Você pode personalizar a escolha dos itens para tornar o presente ainda mais especial. Consulte nossas opções no site ou fale conosco diretamente para montar o presente ideal.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-4 pb-4" id="contatos">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title text-center">Nossos <span class="text-colored">Contatos</span></h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="ms-1 me-1 fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua José Valerio dos Santos Nº1450 - Dourados - MS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

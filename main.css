@@ -1,0 +1,127 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+}
+
+.navbar{
+    background-color: #ffb7df;;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+.nav-link ,
+.navbar-brand,
+.btn-cardapio:hover
+.nav .nav-link,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+h1.navbar-brand.m-0.section-title {
+    font-size: 38px;
+}
+
+.nav-pills .nav-link.active,
+#contatos button {
+    color: #fff;
+    background-color: #b761f3;
+}
+
+#sobre-a-loja, #perguntas-frequentes {
+    background-color: rgb(231, 211, 245);
+}
+
+
+.text-colored {
+    color: #b761f3;
+}
+
+.carousel-indicators [data-bs-target]{
+    padding: 1px;
+}
+
+.text-colored-2 {
+    color:  #70c8e2;
+}
+
+
+.btn-cardapio {
+    color: #7d00d675;
+    background-color: #ff96d0;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#perguntas-frequentes button {
+    font-weight: 500;
+    color: white;
+    background-color: #f38fc6;
+}
+
+.accordion {
+    --bs-accordion-border-color:#feb6fc;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 6%;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: #bd74e7;
+}
+
+@media (max-width: 1200px){
+    #sobre-a-loja {
+        height: 1500px;
+    }
+    #btn-sobre-setas{
+        top: 100px;
+    }
+    #btn-sobre, #btn-sobre-setas {
+        position: relative;
+    }
+    #btn-sobre {
+        top: -30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre-a-loja img{
+        height: 290px;
+    }
+
+    #sobre-a-loja {
+        height: 1300px;
+    }
+
+    #btn-sobre-setas{
+        top: 100px;
+    }
+    #btn-sobre {
+        top: 260px;
+    }
+
+    #btn-sobre, #btn-sobre-setas {
+        position: relative;
+    }
+}
